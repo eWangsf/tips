@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            window.onload = function () {
+                canvas = document.getElementById('testcanvas');
+                var ctx = canvas.getContext('2d');
+                // ctx.rect(200, 300, 30, 50);
+                // ctx.stroke();
+                ctx.fillStyle = "30px";
+                ctx.fillText("hahashizheyang", 200, 300, 200);
+                if (ctx.isPointInPath(220, 320)) {
+                    alert('k');
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <canvas id="testcanvas" width="1000" height="400"></canvas>
+        
+
+        
+    </body>
+</html>
