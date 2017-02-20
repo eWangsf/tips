@@ -1,8 +1,0 @@
-.admin {
-  background: #fff; }
-  .admin .container {
-    padding-top: 0; }
-  .admin .thumbnail > img, .admin .thumbnail a > img {
-    height: 210px; }
-  .admin .add.btn {
-    margin-left: 1rem; }
